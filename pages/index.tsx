@@ -1,6 +1,6 @@
 import {Button, Htag, P, Rating, Tag} from "../components";
 import {useEffect, useState} from "react";
-import {Layout, withLayout} from "../layout/Layout";
+import {withLayout} from "../layout/Layout";
 
 function Home(): JSX.Element {
   const [counter, setCounter] = useState<number>(0);
